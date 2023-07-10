@@ -1,0 +1,7 @@
+sauer_client
+sauer_server
+bin_unix/
+config/
+*.gch
+*.o
+*.a

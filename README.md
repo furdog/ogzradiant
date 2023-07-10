@@ -1,5 +1,7 @@
-# ogzradiant
+# OGZ Radiant
 Cube 2 standalone OGZ map editor used for fast map prototyping.
+- Originated from: https://sourceforge.net/p/sauerbraten/code/HEAD/tree/
+[r6852]
 
 ## TODO:
 - ~~Compile~~;

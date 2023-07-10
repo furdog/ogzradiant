@@ -13,4 +13,8 @@ Cube 2 standalone OGZ map editor used for fast map prototyping.
 ## Notes
 - Project has only started. Accepting active contributions.
 
+## How to build
+- Read "src/readme_source.txt" and install required dependencies
+- Use makefile in main directory.
+
 ![Screenshot](screenshot.png)

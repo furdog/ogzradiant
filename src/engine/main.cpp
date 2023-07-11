@@ -226,8 +226,9 @@ void renderbackground(const char *caption, Texture *mapshot, const char *mapname
 
         settexture("data/background.png", 0);
         float bu = w*0.67f/256.0f + backgroundu, bv = h*0.67f/256.0f + backgroundv;
-        bgquad(0, 0, w, h, 0, 0, bu, bv);
-        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+        /* bgquad(0, 0, w, h, 0, 0, bu, bv); */
+        bgquad(0, 0, w, h);
+        /*glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         glEnable(GL_BLEND);
         settexture("data/background_detail.png", 0);
         float du = w*0.8f/512.0f + detailu, dv = h*0.8f/512.0f + detailv;
@@ -312,7 +313,7 @@ void renderbackground(const char *caption, Texture *mapshot, const char *mapname
                 pophudmatrix();
             }
         }
-        glDisable(GL_BLEND);
+        glDisable(GL_BLEND);*/
         if(!restore) swapbuffers(false);
     }
 

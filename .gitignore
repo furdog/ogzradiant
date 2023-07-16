@@ -1,7 +1,9 @@
 sauer_client
 sauer_server
-bin_unix/
-config/
+*build/
+user/
+!user/screenshot
+!user/packages/base/ogzradiant.ogz
 *.gch
 *.o
 *.a

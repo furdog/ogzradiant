@@ -11,6 +11,7 @@ user/packages/base/*
 !user/packages/base/ogzradiant.ogz
 
 *build/
+*.out
 
 sauer_client
 sauer_server
